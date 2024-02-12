@@ -1,0 +1,46 @@
+:root {
+    /* Color's =====> */
+    --l-color--white: #ffffff;
+    --l-color--black: #000000;
+    --l-color--background-primary: #FFFFFF;
+
+    --l-color--text--primary: #000000;
+
+    /* Font-family =====> */
+    --l-font-family--primary: Arial, sans-serif;
+
+    /* Font-size =====> */
+    --l-font-size--3xs: 0.5rem; /* 8px */
+    --l-font-size--2xs: 0.625rem; /* 10px */
+    --l-font-size--xs: 0.75rem; /* 12px */
+    --l-font-size--sm: 0.875rem; /* 14px */
+    --l-font-size--default: 1rem; /* 16px */
+    --l-font-size--lg: 1.125rem; /* 18px */
+    --l-font-size--xl: 1.25rem; /* 20px */
+    --l-font-size--2xl: 1.5rem; /* 24px */
+    --l-font-size--2-3xl: 1.625rem; /* 26px */
+    --l-font-size--2-5xl: 1.75rem; /* 28px */
+    --l-font-size--3xl: 2rem; /* 32px */
+
+    /* Font-weight =====> */
+    --l-font-weight--regular: 400;
+    --l-font-weight--medium: 500;
+    --l-font-weight--semibold: 600;
+    --l-font-weight--bold: 700;
+
+    /* Border-radius =====> */
+    --l-border-radius--2xs: 0.5rem; /* 8px */
+    --l-border-radius--xs: 0.75rem; /* 12px */
+    --l-border-radius--default: 1rem; /* 16px */
+    --l-border-radius--3xl: 2rem; /* 32px */
+    --l-border-radius--full: 100%; /* 100% */
+
+    /* Box-shadow =====> */
+    --l-shadow--primary: 0px -2px 40px 0px rgba(0, 0, 0, 0.05);
+    --l-shadow--flats: 0 -11px 40px rgba(0, 0, 0, .1);
+
+    /* Transition =====> */
+    --l-transition--low: all 0.15s ease-in-out;
+    --l-transition--default: all 0.3s ease-in-out;
+    --l-transition--high: all 0.6s ease-in-out;
+}
