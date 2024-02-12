@@ -1,4 +1,4 @@
-import { EnvEnum } from "./vite-env";
+import { EnvEnum } from "./types.global";
 import serviceTelegram from "./services/serviceTelegram";
 
 export default async (config: any) => {
