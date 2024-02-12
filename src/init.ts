@@ -1,10 +1,13 @@
-import { initService } from "./services/serviceTelegram.ts";
+import { EnvEnum } from "./vite-env";
+import serviceTelegram from "./services/serviceTelegram";
 
 export default async (config: any) => {
-	try {
-		const queryId = await initService();
+	const serviceTg = new serviceTelegram(config);
 
-		return { queryId: config.VITE_TELEGRAM_AUTHORIZATION || queryId };
+	try {
+		const queryId = await serviceTg.init();
+
+		return { queryId: config[EnvEnum.telegramAuth] || queryId };
 	} catch (error) {
 		console.log(error);
 	}
