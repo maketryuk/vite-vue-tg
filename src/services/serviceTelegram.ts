@@ -1,6 +1,6 @@
-export const telegram = () => window.Telegram;
+export const telegram = () => (window as any).Telegram;
 
-export const getWebApp = () => telegram?.WebApp;
+export const getWebApp = () => telegram()?.WebApp;
 
 export const getQueryId = () => getWebApp()?.initData;
 
