@@ -14,8 +14,8 @@ init(import.meta.env).then((dependency) => {
 
 		console.log(dependency);
 
-		// console.info("%cAPPLICATION INITIALIZED", "color: lightseagreen; font-weight: bold;", {
-		// 	authorization: dependency.authorization,
-		// });
+		console.info("%cAPPLICATION INITIALIZED", "color: lightseagreen; font-weight: bold;", {
+			authorization: dependency?.queryId,
+		});
 	}, 100);
 });
